@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
+  <main class="container">
+    <div class="card">
+      <img src="images/image-product-desktop.jpg" alt="perfume decorado con plantas" class="card__img">
+      <div class="card__texts">
 
-  Perfume
+        <div class="card__slogan">Perfume</div>
+        <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="card__paragraph">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+        <div class="card__prices">
+          <span class="price__one">$149.99</span>
+          <span class="price__two">$169.99</span>
+        </div>
+        <div class="card__cta">
+          <img class="cta__icon" src="images/icon-cart.svg" alt="cart icon button">
+          <a class="cta__link" href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/ronitzdev">ronitzdev</a>.
+    </div>
+  </main>
 
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/ronitzdev">ronitzdev</a>.
-  </div> -->
 </body>
+
 </html>
