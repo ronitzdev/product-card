@@ -44,5 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [GitHub](https://github.com/ronitzdev)
+- GitHub - [ronitzdev](https://github.com/ronitzdev)
 - Frontend Mentor - [@ronitzdev](https://www.frontendmentor.io/profile/ronitzdev)
+- LinkedIn - [@ronitzdev](https://www.linkedin.com/in/ronitzdev/)
